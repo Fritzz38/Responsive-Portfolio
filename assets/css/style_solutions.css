@@ -240,7 +240,7 @@ input[type=submit] {
 
 /* Setting for browser */
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width:768px) and (max-width: 980px) {
 .container {
   width: 100%;
 }
@@ -262,7 +262,7 @@ input[type=submit] {
 
 /* Setting for tablet */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:640px) and (max-width: 768px) {
 .container {
   width: 100%;
 }
